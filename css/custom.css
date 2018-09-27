@@ -1,0 +1,258 @@
+.bg-color{
+	background: #290000;
+}
+.nav-color{
+	color: white;
+}
+.cs-home{
+	border-radius: 15px;
+    padding: 5px;
+    margin: 3px 5px;
+    color: white;
+}
+.cs-home:hover{
+	background-color: #76c38f;
+    color: white;
+}
+.banner-section{
+	background: #290000;
+	height: 500px;
+	width: auto;
+	color: white;
+}
+.banner-content{
+    padding: 50px 15px;
+}
+.banner-content h1{}
+.banner-content p{
+    padding: 15px 0;
+    color: #ffffffc9;
+}
+.banner-content span{
+    padding: 7px 10px;
+    background: #76c38f;
+    margin: -2px 0px;
+    border-radius: 10px;
+}
+.banner-content span a{
+    text-decoration: none;
+    color: white;
+}
+.banner-img{
+    text-align: center;
+}
+.banner-img img{
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    border: 6px solid #6b6b6b;
+    box-sizing: border-box;
+}
+.service-section{
+	height: 400px;
+	background: #660000;
+	color: black;
+}
+.card-image{
+	height: 120px;
+	padding-top: 15px;
+	width: 120px;
+}
+.card-service{
+	align-items: center !important;
+}
+.card-service:hover{
+	background: #76c38f ;
+	color: white;
+}
+.padding-top{
+	padding-top: 30px;
+}
+.work-section{
+	background: #660000;
+	
+}
+.service-img{
+	height: 190px;
+	width: auto;
+}
+.body-padding{
+	background: #151515;
+	color: white;
+	padding-top: 10px !important;
+	padding-bottom: 0px;
+}
+.work-section{
+}
+.heading{
+
+text-align: center;
+
+padding-top: 0px !important;
+
+padding-bottom: 25px;
+}
+.heading span{
+
+}
+.heading h1{
+
+		color: white;
+
+		background: #353535;
+
+		border-radius: 10px;
+
+		height: 50px;
+
+		width: 25%;
+
+		margin: 0px auto;
+}
+.work-service{
+    padding: 10px 0;
+    position: relative;
+}
+.overlay{
+	position: absolute;
+	top: 10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 93%;
+	width: 101%;
+	opacity: 0;
+	transition: .5s ease;
+	border: 5px solid #76c38f;
+}
+.work-service:hover .overlay {
+	
+	opacity: 1;
+}
+.overlay img{
+	height: 241px !important;
+	width: 350px;
+}
+
+.card-box{
+    border: 5px solid #fff;
+}
+.card-box:hover{
+		
+}
+.left-span{}
+.left-span span{}
+.right-span{}
+.right-span span{}
+footer{
+	background: #303030;
+}
+.blog-section{}
+.blog-section h2{color: white;
+    padding: 35px 0px;}
+.blog-section h3{}
+.blog-section h3 span{
+    color: #76c38f;
+}
+.blog-section h4{
+    color: #6a6f79;
+}
+.blog-section h4 span{
+    color: #76c38f;
+}
+.blog-section span{
+    color: #ffffffb8;
+}
+.blog-section p{
+    color: #ffffff85;
+}
+.blog-section a{
+    color: #007bf;
+    text-decoration: none;
+}
+.blog-section a span{color: #76c383;font-size: 20px;}
+.links-section{}
+.links-section h2{
+    color: white;
+    padding: 35px 0;
+}
+.links-section ul{}
+.links-section ul li{
+    list-style: none;
+    display: inline-block;
+}
+.links-section ul li a{
+    text-decoration: none;
+    color: #76c38f;
+    font-size: 15px;
+}
+
+.tweet-section{}
+.tweet-section h2{
+    color: white;
+    padding: 35px 0;
+}
+.tweet-section p{
+    color: #ffffffad;
+}
+.tweet-section p span{
+    color: #60c38f;
+}
+.contact-section{}
+.contact-section h2{
+	color: white;
+    padding: 35px
+}
+.form-control{
+    background: #171414;
+    /* box-shadow: none; */
+}
+.name{
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+.address{
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+.subject{
+    padding: 8px;
+    margin: 10px 0;
+    box-shadow: none;
+    border-radius: 15px;
+}
+.messege{
+    padding: 40px 10px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+.btn-color{
+    background: #76c38f;
+    color: black;
+    border-radius: 10px;
+    box-shadow: none;
+}
+.copyright-section{
+    background: #303030;
+}
+.copyright-section span{
+    background: #1d1b1b8a;
+    height: 3px;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+.copyright{
+    padding-bottom: 5px;
+    color: #ffffff94;
+    padding-top: 5px;
+}
+.copyright p{}
+.template{
+    color: #f7f6f4a6;
+    float: right;
+    margin: -40px 0px;
+}
+.template p{}
