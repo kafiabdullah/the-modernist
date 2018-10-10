@@ -19,12 +19,12 @@ color: white;
 .nav-buttons{
 width: 64px !important;
 }
-.cs-home{border-radius: 8px;
+.cs-home{
+    border-radius: 8px;
     padding: 5px;
     margin: 12px 12px;
     color: white;
-    font-size: 13px;
-
+    /* font-size: 13px; */
 }
 .cs-home:hover{
 background-color: #76c38f;
@@ -84,11 +84,7 @@ padding: 8px 13px;
 border-radius: 10px;
 transition: 0.5s;
 }
-.read_more:hover{
-background-color: black;
-text-decoration: none;
-color: white;
-}
+.read_more:hover{background-color: #76c38f;text-decoration: none;color: white;}
 .slider_pic{
 margin: auto;
 }
@@ -101,10 +97,7 @@ border: 22px solid #6b6b6b;
 border-radius: 212px;
 margin-right: 0;
 }
-.slider_pic_inner img{
-height: 380px;
-width: 380px;
-}
+.slider_pic_inner img{height: 380px;width: 380px;border-radius: 200px;}
 .custom_prev_icn{
 position: absolute;
 right: 15px;
@@ -125,12 +118,12 @@ width: 15px;
 .service-section{
     background: #660000;
     color: black;
-    padding: 30px 30px;
     margin-bottom: -1px;
     margin-top: -1px;
+    padding-top: 30px;
 }
 .service{
-    margin: 16px 0px;
+    margin: 15px 10px;
     background: white;
     height: 315px;
     width: 225px;
@@ -156,11 +149,12 @@ color: white;
 background: white;
 }
 .padding-top{
-    margin: -1px 0px;
+    margin: -1px 0;
+    padding-left: 0px;
 }
 .work-section{
     background: #660000;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
 }
 /* service */
 .heading{
@@ -189,9 +183,10 @@ background: white;
     border-radius: 10px;
     font-size: 32px;
 }
-.work-service{padding: 10px 0;position: relative;margin: 10px 0px;}
-.overlay{position: absolute;
-    top: 10px;
+.work-service{position: relative;margin: 15px 0px;}
+.overlay{
+    position: absolute;
+    top: 0px;
     bottom: 0;
     left: 0px;
     right: 0px;
@@ -233,10 +228,13 @@ height: 190px
 .card-box:hover{
 
 }
-.col-pad{}
+.col-pad{
+    padding-bottom: 10px;
+}
 .work{}
 .service-padding{
-    padding: 0 50px;
+    padding: 0px 40px;
+    align-items: center !important;
 }
 
 /* footer */
@@ -365,15 +363,16 @@ box-shadow: none;
 .copyright-section{
     background: #353535;
     border-top: 1px solid #000000ad;
-    
+    padding-bottom: 5px;
+    padding-top: 20px;
 }
-.copyright{padding: 25px 0px;}
+.copyright{/* padding: 25px 0px; */}
 .copyright p{
     color: #ffffff9e;
     font-size: 13px;
 }
 .template{
-    padding: 25px 0px;
+    /* padding: 25px 0px; */
     margin: 0px 20px;
 }
 .template p{
