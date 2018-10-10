@@ -184,8 +184,9 @@ background: white;
     border-radius: 10px;
     font-size: 32px;
 }
-.work-service{position: relative;
-    margin: 15px 0px;
+.work-service{
+    position: relative;
+    margin: 22px 0px;
 }
 .overlay{
     position: absolute;
@@ -194,7 +195,7 @@ background: white;
     left: 0px;
     right: 0px;
     height: 200px;
-    width: 300px;
+    width: 330px;
     opacity: 0;
     transition: .5s ease;
     border: 5px solid #76c38f;
@@ -203,18 +204,19 @@ background: white;
 
 opacity: 1;
 }
-.overlay img{height: 190px !important;
-    width: 290px !important;
+.overlay img{
+    height: 190px !important;
+    width: 320px !important;
 }
 .card-box{
     border: 5px solid #fff;
-    height: 200px;width: 300px;
+    height: 200px;
+    width: 330px;
 }
 .work-service .card-box img{
     position: relative;
     height: 190px;
-    width: 290px;
-
+    width: 320px;
 }
 .work-service .body-padding{
     position: absolute;
@@ -237,11 +239,9 @@ opacity: 1;
 }
 .body-padding:hover{}
 .col-pad{
-    padding-bottom: 10px;
 }
 .work{}
 .service-padding{
-    padding: 0px 0px;
     align-items: center !important;
 }
 .work{
