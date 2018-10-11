@@ -50,6 +50,13 @@
     .slider_inner {
         padding-bottom: 20px;
     }
+    .custom_prev_icn{
+        top: 65%;
+
+    }
+    .custom_nxt_icn{
+        top: 65%;
+    }
 }
 
 @media (min-width: 413px) and (max-width: 575px) {
