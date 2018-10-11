@@ -86,7 +86,14 @@
     }
 
     .slider_inner {
-        padding-bottom: 230px;
+        padding-bottom: 20px;
+    }
+    .custom_prev_icn{
+        top: 65%;
+
+    }
+    .custom_nxt_icn{
+        top: 65%;
     }
 
 }
