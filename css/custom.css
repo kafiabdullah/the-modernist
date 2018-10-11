@@ -12,7 +12,7 @@ header{
     border-top: 5px solid #76c38f;
     background: #290000;
     padding: 10px 0px;
-    margin-bottom: -1px;
+    margin: -1px auto;
 }
 
 /* 
@@ -122,10 +122,8 @@ width: 15px;
     padding-top: 30px;
 }
 .service{
-    margin: 15px 10px;
     background: #ffffff;
-    height: 315px;
-    width: 225px;
+    margin: 25px 15px !important;
 }
 .card-service{
     text-align: center !important;
@@ -154,18 +152,17 @@ background: black;
 background: white;
 }
 .padding-top{
-    margin: -1px 0;
-    padding-left: 0px;
 }
 .work-section{
     background: #660000;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 /* service */
 .heading{
     position: relative;
     text-align: center;
-    margin: 40px 0;
+    padding-bottom: 15px;
 }
 .heading::before{
        content: "";
@@ -190,16 +187,15 @@ background: white;
 }
 .work-service{
     position: relative;
-    margin: 22px 0px;
+    padding: 25px 0px;
+    margin-left: 15px;
 }
 .overlay{
     position: absolute;
-    top: 0px;
-    bottom: 0;
+    top: 25px;
     left: 0px;
-    right: 0px;
-    height: 200px;
-    width: 330px;
+    height: 80%;
+    width: 95%;
     opacity: 0;
     transition: .5s ease;
     border: 5px solid #76c38f;
@@ -210,25 +206,25 @@ opacity: 1;
 }
 .overlay img{
     height: 190px !important;
-    width: 320px !important;
+    width: 100% !important;
 }
 .card-box{
     border: 5px solid #fff;
-    height: 200px;
-    width: 330px;
+    height: 100%;
+    width: 95%;
+    border-radius: 0;
 }
 .work-service .card-box img{
     position: relative;
     height: 190px;
-    width: 320px;
+    width: 100%;
 }
 .work-service .body-padding{
     position: absolute;
-    
     text-align: center;
     top: 70%;
     left: 0px;
-    right: 0px;
+    width: 100%;
     background: #353535;
     color: white;
     padding: 1px 0px;
@@ -247,6 +243,7 @@ opacity: 1;
 .work{}
 .service-padding{
     align-items: center !important;
+    margin: 0 auto;
 }
 .work{
     position: relative;
@@ -281,9 +278,9 @@ opacity: 1;
 .work .overlay img{}
 /* footer */
 footer{
-    padding: 32px 0px;
+    padding: 30px 60px;
     background: #303030;
-    margin-top: -1px;
+    margin: -1px auto;
 }
 .blog-section{}
 .blog-section h2{
@@ -414,7 +411,6 @@ box-shadow: none;
     font-size: 13px;
 }
 .template{
-    /* padding: 25px 0px; */
     margin: 0px 20px;
 }
 .template p{
