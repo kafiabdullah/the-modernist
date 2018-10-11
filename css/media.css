@@ -3,7 +3,7 @@
 @media (max-width: 320px) {}
 
 @media (min-width: 321px) and (max-width: 412px) {
-    .header_nav ul li a {
+    .cs-home ul li a {
         width: 110px;
         float: right;
         text-align: center;
@@ -53,7 +53,7 @@
 }
 
 @media (min-width: 413px) and (max-width: 575px) {
-    .header_nav ul li a {
+    .cs-home ul li a {
         width: 110px;
         float: right;
         text-align: center;
@@ -96,7 +96,7 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-    .header_nav ul li a {
+    .cs-home ul li a {
         width: 110px;
         float: right;
         text-align: center;
@@ -138,10 +138,13 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .header_nav ul li a {
+    .cs-home ul li a {
         padding-left: 3px !important;
         padding-right: 3px !important;
         margin: 0 1px;
+        width: 110px;
+        float: right;
+        text-align: center;
     }
 
     .slider_text h1 {

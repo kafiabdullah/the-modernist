@@ -1,4 +1,7 @@
- 
+*{
+    margin: 0;
+    padding: 0;
+} 
 body{
 font-family: Georgia;
 }
@@ -8,44 +11,45 @@ font-family: Georgia;
 header{
     border-top: 5px solid #76c38f;
     background: #290000;
+    padding: 10px 0px;
+    margin-bottom: -1px;
 }
 
-.bg-color{
-background: #290000;
-}
-.nav-img{}
-.nav-img img{}
-.nav-color{
-color: white;
-}
-.nav-buttons{
-width: 64px !important;
-}
+/* 
 .cs-home{
     border-radius: 8px;
     padding: 5px;
     margin: 12px 12px;
     color: #ffffff;
-    /* font-size: 13px; */
+    
+ } */
+ .cs-home{
+ }
+.cs-home ul{}
+.cs-home ul li{
+    text-align: left !important;
 }
-.cs-home:hover{
-background-color: #76c38f;
-color: white;
-margin: 12px 12px;
-align-items: center;
+.cs-home ul li a{
+    color: white;
+    font-size: 13px;
+    border-radius: 8px;
+    word-spacing: 2px;
+    padding: 10px 10px !important;
+    margin: 0px 5px;
+    color: white !important;
+}
+.cs-home ul li a:hover{
+    background-color: #76c38f;
 }
 .toggler_color{
-    background: url(../);
+    background-color: #76c38f; 
 
     
 }
 /* header */
 
 /* banner */
-.slider{
-min-height: 500px;
-background-color: #290000;
-}
+.slider{min-height: 500px;background-color: #290000;margin-bottom: -1px;}
 .fluid_padding{
 padding: 0 !important;
 }
@@ -113,7 +117,7 @@ width: 15px;
 .service-section{
     background: #660000;
     color: black;
-    margin-bottom: -1px;
+    margin-bottom: -2px;
     margin-top: 0px;
     padding-top: 30px;
 }
